@@ -29,4 +29,5 @@ jobs:
           - name: Output information
             run: echo "Deploying and updating..."
           - name: Set result output
+            id: set-result
             run: echo "::set-output name=step-result::success"
